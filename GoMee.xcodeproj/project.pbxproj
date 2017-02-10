@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA01193E1E4ADFE50004C305 /* JSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA01193B1E4ADFE50004C305 /* JSColor.swift */; };
+		EA01193F1E4ADFE50004C305 /* JSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA01193C1E4ADFE50004C305 /* JSButton.swift */; };
+		EA0119401E4ADFE50004C305 /* JSLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA01193D1E4ADFE50004C305 /* JSLayer.swift */; };
+		EA0119431E4AEC670004C305 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0119421E4AEC670004C305 /* LoginViewController.swift */; };
+		EA0119691E4AF6F40004C305 /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0119651E4AF6F40004C305 /* AccountKit.framework */; };
+		EA01196E1E4AF7080004C305 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA01196D1E4AF7080004C305 /* UIKit.framework */; };
+		EA0119701E4AF70B0004C305 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA01196F1E4AF70B0004C305 /* CoreAudio.framework */; };
+		EA0119721E4AF72B0004C305 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0119711E4AF72B0004C305 /* AVFoundation.framework */; };
+		EA01197D1E4B21080004C305 /* GoMee-Bridging-Header.h in Resources */ = {isa = PBXBuildFile; fileRef = EA0119521E4AF3D10004C305 /* GoMee-Bridging-Header.h */; };
+		EA0119801E4B21160004C305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADDE24F1E4A9CA000E5B227 /* Main.storyboard */; };
+		EA0119811E4B215F0004C305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EADDE2521E4A9CA000E5B227 /* Assets.xcassets */; };
+		EA0119881E4B266C0004C305 /* AccountKitStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EA0119661E4AF6F40004C305 /* AccountKitStrings.bundle */; };
+		EA0119891E4B279C0004C305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADDE2541E4A9CA000E5B227 /* LaunchScreen.storyboard */; };
+		EA8FFDD71E4BD8C200092BD3 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0119681E4AF6F40004C305 /* FBSDKCoreKit.framework */; };
+		EADDE24C1E4A9CA000E5B227 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADDE24B1E4A9CA000E5B227 /* AppDelegate.swift */; };
+		EADDE24E1E4A9CA000E5B227 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADDE24D1E4A9CA000E5B227 /* ViewController.swift */; };
+		EADDE2611E4A9CA000E5B227 /* GoMeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADDE2601E4A9CA000E5B227 /* GoMeeTests.swift */; };
+		EADDE26C1E4A9CA000E5B227 /* GoMeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADDE26B1E4A9CA000E5B227 /* GoMeeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EADDE25D1E4A9CA000E5B227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EADDE2401E4A9CA000E5B227 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EADDE2471E4A9CA000E5B227;
+			remoteInfo = GoMee;
+		};
+		EADDE2681E4A9CA000E5B227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EADDE2401E4A9CA000E5B227 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EADDE2471E4A9CA000E5B227;
+			remoteInfo = GoMee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA01193B1E4ADFE50004C305 /* JSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSColor.swift; sourceTree = "<group>"; };
+		EA01193C1E4ADFE50004C305 /* JSButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSButton.swift; sourceTree = "<group>"; };
+		EA01193D1E4ADFE50004C305 /* JSLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSLayer.swift; sourceTree = "<group>"; };
+		EA0119421E4AEC670004C305 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EA0119521E4AF3D10004C305 /* GoMee-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GoMee-Bridging-Header.h"; sourceTree = "<group>"; };
+		EA0119551E4AF5480004C305 /* GoMee-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoMee-Bridging-Header.h"; sourceTree = "<group>"; };
+		EA0119651E4AF6F40004C305 /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AccountKit.framework; path = GoMee/AccountKit.framework; sourceTree = "<group>"; };
+		EA0119661E4AF6F40004C305 /* AccountKitStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AccountKitStrings.bundle; path = GoMee/AccountKitStrings.bundle; sourceTree = "<group>"; };
+		EA0119671E4AF6F40004C305 /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKStrings.bundle; path = GoMee/FacebookSDKStrings.bundle; sourceTree = "<group>"; };
+		EA0119681E4AF6F40004C305 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = GoMee/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		EA01196D1E4AF7080004C305 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA01196F1E4AF70B0004C305 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		EA0119711E4AF72B0004C305 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EADDE2481E4A9CA000E5B227 /* GoMee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoMee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADDE24B1E4A9CA000E5B227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EADDE24D1E4A9CA000E5B227 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EADDE2501E4A9CA000E5B227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EADDE2521E4A9CA000E5B227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EADDE2551E4A9CA000E5B227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EADDE2571E4A9CA000E5B227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EADDE25C1E4A9CA000E5B227 /* GoMeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoMeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADDE2601E4A9CA000E5B227 /* GoMeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoMeeTests.swift; sourceTree = "<group>"; };
+		EADDE2621E4A9CA000E5B227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EADDE2671E4A9CA000E5B227 /* GoMeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoMeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADDE26B1E4A9CA000E5B227 /* GoMeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoMeeUITests.swift; sourceTree = "<group>"; };
+		EADDE26D1E4A9CA000E5B227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EADDE2451E4A9CA000E5B227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8FFDD71E4BD8C200092BD3 /* FBSDKCoreKit.framework in Frameworks */,
+				EA0119721E4AF72B0004C305 /* AVFoundation.framework in Frameworks */,
+				EA0119701E4AF70B0004C305 /* CoreAudio.framework in Frameworks */,
+				EA01196E1E4AF7080004C305 /* UIKit.framework in Frameworks */,
+				EA0119691E4AF6F40004C305 /* AccountKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADDE2591E4A9CA000E5B227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADDE2641E4A9CA000E5B227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA01193A1E4ADFCD0004C305 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				EA01193B1E4ADFE50004C305 /* JSColor.swift */,
+				EA01193C1E4ADFE50004C305 /* JSButton.swift */,
+				EA01193D1E4ADFE50004C305 /* JSLayer.swift */,
+			);
+			name = Animations;
+			sourceTree = "<group>";
+		};
+		EA0119411E4AEC530004C305 /* Facebook Account Kit */ = {
+			isa = PBXGroup;
+			children = (
+				EA0119421E4AEC670004C305 /* LoginViewController.swift */,
+			);
+			name = "Facebook Account Kit";
+			sourceTree = "<group>";
+		};
+		EA0119441E4AECC20004C305 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA0119711E4AF72B0004C305 /* AVFoundation.framework */,
+				EA01196F1E4AF70B0004C305 /* CoreAudio.framework */,
+				EA01196D1E4AF7080004C305 /* UIKit.framework */,
+				EA0119651E4AF6F40004C305 /* AccountKit.framework */,
+				EA0119661E4AF6F40004C305 /* AccountKitStrings.bundle */,
+				EA0119671E4AF6F40004C305 /* FacebookSDKStrings.bundle */,
+				EA0119681E4AF6F40004C305 /* FBSDKCoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EADDE23F1E4A9CA000E5B227 = {
+			isa = PBXGroup;
+			children = (
+				EA0119521E4AF3D10004C305 /* GoMee-Bridging-Header.h */,
+				EADDE24A1E4A9CA000E5B227 /* GoMee */,
+				EADDE25F1E4A9CA000E5B227 /* GoMeeTests */,
+				EADDE26A1E4A9CA000E5B227 /* GoMeeUITests */,
+				EADDE2491E4A9CA000E5B227 /* Products */,
+				EA0119441E4AECC20004C305 /* Frameworks */,
+				EA0119551E4AF5480004C305 /* GoMee-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		EADDE2491E4A9CA000E5B227 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EADDE2481E4A9CA000E5B227 /* GoMee.app */,
+				EADDE25C1E4A9CA000E5B227 /* GoMeeTests.xctest */,
+				EADDE2671E4A9CA000E5B227 /* GoMeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EADDE24A1E4A9CA000E5B227 /* GoMee */ = {
+			isa = PBXGroup;
+			children = (
+				EADDE24F1E4A9CA000E5B227 /* Main.storyboard */,
+				EADDE2541E4A9CA000E5B227 /* LaunchScreen.storyboard */,
+				EADDE24B1E4A9CA000E5B227 /* AppDelegate.swift */,
+				EADDE24D1E4A9CA000E5B227 /* ViewController.swift */,
+				EA0119411E4AEC530004C305 /* Facebook Account Kit */,
+				EA01193A1E4ADFCD0004C305 /* Animations */,
+				EADDE2521E4A9CA000E5B227 /* Assets.xcassets */,
+				EADDE2571E4A9CA000E5B227 /* Info.plist */,
+			);
+			path = GoMee;
+			sourceTree = "<group>";
+		};
+		EADDE25F1E4A9CA000E5B227 /* GoMeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EADDE2601E4A9CA000E5B227 /* GoMeeTests.swift */,
+				EADDE2621E4A9CA000E5B227 /* Info.plist */,
+			);
+			path = GoMeeTests;
+			sourceTree = "<group>";
+		};
+		EADDE26A1E4A9CA000E5B227 /* GoMeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EADDE26B1E4A9CA000E5B227 /* GoMeeUITests.swift */,
+				EADDE26D1E4A9CA000E5B227 /* Info.plist */,
+			);
+			path = GoMeeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EADDE2471E4A9CA000E5B227 /* GoMee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADDE2701E4A9CA000E5B227 /* Build configuration list for PBXNativeTarget "GoMee" */;
+			buildPhases = (
+				EADDE2441E4A9CA000E5B227 /* Sources */,
+				EADDE2451E4A9CA000E5B227 /* Frameworks */,
+				EADDE2461E4A9CA000E5B227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoMee;
+			productName = GoMee;
+			productReference = EADDE2481E4A9CA000E5B227 /* GoMee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EADDE25B1E4A9CA000E5B227 /* GoMeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADDE2731E4A9CA000E5B227 /* Build configuration list for PBXNativeTarget "GoMeeTests" */;
+			buildPhases = (
+				EADDE2581E4A9CA000E5B227 /* Sources */,
+				EADDE2591E4A9CA000E5B227 /* Frameworks */,
+				EADDE25A1E4A9CA000E5B227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EADDE25E1E4A9CA000E5B227 /* PBXTargetDependency */,
+			);
+			name = GoMeeTests;
+			productName = GoMeeTests;
+			productReference = EADDE25C1E4A9CA000E5B227 /* GoMeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EADDE2661E4A9CA000E5B227 /* GoMeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADDE2761E4A9CA000E5B227 /* Build configuration list for PBXNativeTarget "GoMeeUITests" */;
+			buildPhases = (
+				EADDE2631E4A9CA000E5B227 /* Sources */,
+				EADDE2641E4A9CA000E5B227 /* Frameworks */,
+				EADDE2651E4A9CA000E5B227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EADDE2691E4A9CA000E5B227 /* PBXTargetDependency */,
+			);
+			name = GoMeeUITests;
+			productName = GoMeeUITests;
+			productReference = EADDE2671E4A9CA000E5B227 /* GoMeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EADDE2401E4A9CA000E5B227 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jaxon Stevens";
+				TargetAttributes = {
+					EADDE2471E4A9CA000E5B227 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 45J9WDN6PB;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					EADDE25B1E4A9CA000E5B227 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 45J9WDN6PB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EADDE2471E4A9CA000E5B227;
+					};
+					EADDE2661E4A9CA000E5B227 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 45J9WDN6PB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EADDE2471E4A9CA000E5B227;
+					};
+				};
+			};
+			buildConfigurationList = EADDE2431E4A9CA000E5B227 /* Build configuration list for PBXProject "GoMee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EADDE23F1E4A9CA000E5B227;
+			productRefGroup = EADDE2491E4A9CA000E5B227 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EADDE2471E4A9CA000E5B227 /* GoMee */,
+				EADDE25B1E4A9CA000E5B227 /* GoMeeTests */,
+				EADDE2661E4A9CA000E5B227 /* GoMeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EADDE2461E4A9CA000E5B227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0119891E4B279C0004C305 /* LaunchScreen.storyboard in Resources */,
+				EA0119881E4B266C0004C305 /* AccountKitStrings.bundle in Resources */,
+				EA0119811E4B215F0004C305 /* Assets.xcassets in Resources */,
+				EA0119801E4B21160004C305 /* Main.storyboard in Resources */,
+				EA01197D1E4B21080004C305 /* GoMee-Bridging-Header.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADDE25A1E4A9CA000E5B227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADDE2651E4A9CA000E5B227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EADDE2441E4A9CA000E5B227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0119431E4AEC670004C305 /* LoginViewController.swift in Sources */,
+				EADDE24E1E4A9CA000E5B227 /* ViewController.swift in Sources */,
+				EADDE24C1E4A9CA000E5B227 /* AppDelegate.swift in Sources */,
+				EA01193F1E4ADFE50004C305 /* JSButton.swift in Sources */,
+				EA01193E1E4ADFE50004C305 /* JSColor.swift in Sources */,
+				EA0119401E4ADFE50004C305 /* JSLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADDE2581E4A9CA000E5B227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADDE2611E4A9CA000E5B227 /* GoMeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADDE2631E4A9CA000E5B227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADDE26C1E4A9CA000E5B227 /* GoMeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EADDE25E1E4A9CA000E5B227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EADDE2471E4A9CA000E5B227 /* GoMee */;
+			targetProxy = EADDE25D1E4A9CA000E5B227 /* PBXContainerItemProxy */;
+		};
+		EADDE2691E4A9CA000E5B227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EADDE2471E4A9CA000E5B227 /* GoMee */;
+			targetProxy = EADDE2681E4A9CA000E5B227 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EADDE24F1E4A9CA000E5B227 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EADDE2501E4A9CA000E5B227 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EADDE2541E4A9CA000E5B227 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EADDE2551E4A9CA000E5B227 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EADDE26E1E4A9CA000E5B227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EADDE26F1E4A9CA000E5B227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EADDE2711E4A9CA000E5B227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 45J9WDN6PB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoMee",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FacebookSDk",
+				);
+				INFOPLIST_FILE = GoMee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GoMeeApp.GoMee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoMee-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EADDE2721E4A9CA000E5B227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 45J9WDN6PB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoMee",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FacebookSDk",
+				);
+				INFOPLIST_FILE = GoMee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GoMeeApp.GoMee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GoMee-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EADDE2741E4A9CA000E5B227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 45J9WDN6PB;
+				INFOPLIST_FILE = GoMeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VFS.GoMeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoMee.app/GoMee";
+			};
+			name = Debug;
+		};
+		EADDE2751E4A9CA000E5B227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 45J9WDN6PB;
+				INFOPLIST_FILE = GoMeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VFS.GoMeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoMee.app/GoMee";
+			};
+			name = Release;
+		};
+		EADDE2771E4A9CA000E5B227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 45J9WDN6PB;
+				INFOPLIST_FILE = GoMeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VFS.GoMeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoMee;
+			};
+			name = Debug;
+		};
+		EADDE2781E4A9CA000E5B227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 45J9WDN6PB;
+				INFOPLIST_FILE = GoMeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VFS.GoMeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoMee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EADDE2431E4A9CA000E5B227 /* Build configuration list for PBXProject "GoMee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADDE26E1E4A9CA000E5B227 /* Debug */,
+				EADDE26F1E4A9CA000E5B227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADDE2701E4A9CA000E5B227 /* Build configuration list for PBXNativeTarget "GoMee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADDE2711E4A9CA000E5B227 /* Debug */,
+				EADDE2721E4A9CA000E5B227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADDE2731E4A9CA000E5B227 /* Build configuration list for PBXNativeTarget "GoMeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADDE2741E4A9CA000E5B227 /* Debug */,
+				EADDE2751E4A9CA000E5B227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADDE2761E4A9CA000E5B227 /* Build configuration list for PBXNativeTarget "GoMeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADDE2771E4A9CA000E5B227 /* Debug */,
+				EADDE2781E4A9CA000E5B227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EADDE2401E4A9CA000E5B227 /* Project object */;
+}
