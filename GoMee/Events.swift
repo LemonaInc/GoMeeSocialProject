@@ -16,6 +16,7 @@ class Events
     
     // Define title of cell
     var title = ""
+    var book = ""
     
     // Define description of the cell
     var description = ""
@@ -24,9 +25,10 @@ class Events
     // Define main image displayed on the cell
     var mainImage: UIImage!
     
-    init(title: String, description: String, mainImage: UIImage!)
+    init(title: String, description: String, book: String, mainImage: UIImage!)
     {
         self.title = title
+        self.book = book
         self.description = description
         self.mainImage = mainImage
         numberOfMembers = 1
@@ -39,15 +41,17 @@ class Events
         return [
         
         
-        Events(title: "Concert", description: "Concert", mainImage: UIImage(named: "Concert")!),
+        Events(title: "Concert", description: "Chainsmokers Concert", book: "Book Concert", mainImage: UIImage(named: "Concert")!),
 
-        Events(title: "LightHouse Park", description: "Activity", mainImage: UIImage(named: "Sky")!),
+            
+        Events(title: "LightHouse Park", description: "Outdoors Activity", book: "Book Activity",  mainImage: UIImage(named: "Sky")!),
         
-        Events(title: "Hike", description: "Activity", mainImage: UIImage(named: "Hike")!),
+        Events(title: "Hike", description: "Hike in the woods", book: "Book Activity", mainImage:  UIImage(named: "Hike")!),
         
-        Events(title: "Party", description: "Party", mainImage: UIImage(named: "Party")!),
+        Events(title: "Party", description: "A party to remember", book: "Attend Party", mainImage: UIImage(named: "Party")!),
         
-        Events(title: "Hike", description: "Activity", mainImage: UIImage(named: "Bridge")!),
+        Events(title: "Hike", description: "Hike to the beach",book: "RVSP",  mainImage: UIImage(named: "Bridge")!),
+        
         
         
         
