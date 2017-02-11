@@ -39,15 +39,15 @@ class Events
         return [
         
         
-        Events(title: "Concert", description: "Concert", mainImage: UIImage(named: "LaunchScreen")!),
+        Events(title: "Concert", description: "Concert", mainImage: UIImage(named: "Concert")!),
 
-        Events(title: "LightHouse Park", description: "Park", mainImage: UIImage(named: "Dark")!),
+        Events(title: "LightHouse Park", description: "Activity", mainImage: UIImage(named: "Sky")!),
         
-        Events(title: "Resturant", description: "Resturant", mainImage: UIImage(named: "Dark")!),
+        Events(title: "Hike", description: "Activity", mainImage: UIImage(named: "Hike")!),
         
-        Events(title: "Party", description: "Party", mainImage: UIImage(named: "Dark")!),
+        Events(title: "Party", description: "Party", mainImage: UIImage(named: "Party")!),
         
-        Events(title: "Skiing", description: "Activity", mainImage: UIImage(named: "Dark")!),
+        Events(title: "Hike", description: "Activity", mainImage: UIImage(named: "Bridge")!),
         
         
         

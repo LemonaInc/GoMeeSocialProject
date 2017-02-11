@@ -22,6 +22,7 @@ class EventsCollectionViewCell: UICollectionViewCell
     
     @IBOutlet weak var mainImageView: UIImageView!
     @IBOutlet weak var TitleLabel: UILabel!
+    @IBOutlet weak var DescriptionLabel: UILabel!
     @IBOutlet weak var Button: UIButton!
     @IBOutlet weak var HomeButton: UIButton!
  
@@ -30,6 +31,7 @@ class EventsCollectionViewCell: UICollectionViewCell
     fileprivate func updateUI()
     {
         TitleLabel?.text! = event.title
+        DescriptionLabel?.text! = event.description
         mainImageView?.image! = event.mainImage
     }
     

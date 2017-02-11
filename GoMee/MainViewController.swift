@@ -46,8 +46,6 @@ class MainViewController: UIViewController
 
     
     
-    
-    
     // Account Kit
 
     
