@@ -1,10 +1,12 @@
 //
 //  ViewController.swift
-//  JSWWDC16
+//  GoMee
 //
-//  Created by Jaxon Stevens on 4/19/16.
-//  Copyright © 2016 Jaxon Stevens. All rights reserved.
+//  Created by Jaxon Stevens on 2/10/17.
+//  Copyright © 2017 Jaxon Stevens. All rights reserved.
 //
+
+
 
 import UIKit
 import AccountKit
@@ -39,14 +41,9 @@ class ViewController: UIViewController, UISearchBarDelegate {
     
   
     
-    // Outlets & Controls
-    @IBOutlet weak var tableView: UITableView!
-    @IBOutlet weak var loadingLabel: UILabel!
-    @IBOutlet weak var searchBar: UISearchBar!
     
-    
-    // entries and parser
-    
+    // Facebook account kit 
+    // Do not remove or it may break the app
     
     var accountKit: AKFAccountKit!
     
@@ -59,7 +56,6 @@ class ViewController: UIViewController, UISearchBarDelegate {
         // initialization
         
         // Initiate Audio
-        
     
         if accountKit == nil {
             

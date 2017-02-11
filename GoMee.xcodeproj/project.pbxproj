@@ -25,6 +25,9 @@
 		EADDE24E1E4A9CA000E5B227 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADDE24D1E4A9CA000E5B227 /* ViewController.swift */; };
 		EADDE2611E4A9CA000E5B227 /* GoMeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADDE2601E4A9CA000E5B227 /* GoMeeTests.swift */; };
 		EADDE26C1E4A9CA000E5B227 /* GoMeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADDE26B1E4A9CA000E5B227 /* GoMeeUITests.swift */; };
+		EAE606FC1E4E8E3300179D9C /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE606FB1E4E8E3300179D9C /* Events.swift */; };
+		EAE606FF1E4E8E5100179D9C /* EventsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE606FE1E4E8E5100179D9C /* EventsCollectionViewCell.swift */; };
+		EAE607041E4E944900179D9C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE607031E4E944900179D9C /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,9 @@
 		EADDE2671E4A9CA000E5B227 /* GoMeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoMeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADDE26B1E4A9CA000E5B227 /* GoMeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoMeeUITests.swift; sourceTree = "<group>"; };
 		EADDE26D1E4A9CA000E5B227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE606FB1E4E8E3300179D9C /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		EAE606FE1E4E8E5100179D9C /* EventsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventsCollectionViewCell.swift; path = ../EventsCollectionViewCell.swift; sourceTree = "<group>"; };
+		EAE607031E4E944900179D9C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,8 +169,10 @@
 			children = (
 				EADDE24F1E4A9CA000E5B227 /* Main.storyboard */,
 				EADDE2541E4A9CA000E5B227 /* LaunchScreen.storyboard */,
+				EAE607031E4E944900179D9C /* MainViewController.swift */,
 				EADDE24B1E4A9CA000E5B227 /* AppDelegate.swift */,
 				EADDE24D1E4A9CA000E5B227 /* ViewController.swift */,
+				EAE606FD1E4E8E3A00179D9C /* CollectionView */,
 				EA0119411E4AEC530004C305 /* Facebook Account Kit */,
 				EA01193A1E4ADFCD0004C305 /* Animations */,
 				EADDE2521E4A9CA000E5B227 /* Assets.xcassets */,
@@ -189,6 +197,15 @@
 				EADDE26D1E4A9CA000E5B227 /* Info.plist */,
 			);
 			path = GoMeeUITests;
+			sourceTree = "<group>";
+		};
+		EAE606FD1E4E8E3A00179D9C /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				EAE606FE1E4E8E5100179D9C /* EventsCollectionViewCell.swift */,
+				EAE606FB1E4E8E3300179D9C /* Events.swift */,
+			);
+			name = CollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,8 +352,11 @@
 				EADDE24E1E4A9CA000E5B227 /* ViewController.swift in Sources */,
 				EADDE24C1E4A9CA000E5B227 /* AppDelegate.swift in Sources */,
 				EA01193F1E4ADFE50004C305 /* JSButton.swift in Sources */,
+				EAE606FC1E4E8E3300179D9C /* Events.swift in Sources */,
 				EA01193E1E4ADFE50004C305 /* JSColor.swift in Sources */,
+				EAE607041E4E944900179D9C /* MainViewController.swift in Sources */,
 				EA0119401E4ADFE50004C305 /* JSLayer.swift in Sources */,
+				EAE606FF1E4E8E5100179D9C /* EventsCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

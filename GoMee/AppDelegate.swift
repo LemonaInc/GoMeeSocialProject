@@ -1,3 +1,13 @@
+//
+//  AppDelegate.swift
+//  GoMee
+//
+//  Created by Jaxon Stevens on 2/10/17.
+//  Copyright © 2017 Jaxon Stevens. All rights reserved.
+//
+
+
+
 import UIKit
 
 @UIApplicationMain
