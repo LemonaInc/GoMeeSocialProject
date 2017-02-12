@@ -12,7 +12,6 @@ import UIKit
 import AccountKit
 import AVFoundation
 // FIXME: comparison operators with optionals were removed from the Swift Standard Libary.
-// Consider refactoring the code to use the non-optional operators.
 fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
     switch (lhs, rhs) {
     case let (l?, r?):
@@ -25,7 +24,7 @@ fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
 }
 
 // FIXME: comparison operators with optionals were removed from the Swift Standard Libary.
-// Consider refactoring the code to use the non-optional operators.
+
 fileprivate func > <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
     switch (lhs, rhs) {
     case let (l?, r?):
@@ -50,6 +49,9 @@ class ViewController: UIViewController, UISearchBarDelegate {
     @IBOutlet weak var accountID: UILabel!
     @IBOutlet weak var labeltype: UILabel!
     @IBOutlet weak var phoneornumber: UILabel!
+    @IBOutlet weak var BookLabel: UILabel!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
