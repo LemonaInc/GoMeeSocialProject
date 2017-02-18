@@ -23,6 +23,7 @@ class EventsCollectionViewCell: UICollectionViewCell
     @IBOutlet weak var mainImageView: UIImageView!
     @IBOutlet weak var TitleLabel: UILabel!
     @IBOutlet weak var BookLabel: UILabel!
+    @IBOutlet weak var Button2: UIButton!
     @IBOutlet weak var DescriptionLabel: UILabel!
     @IBOutlet weak var Button: UIButton!
     @IBOutlet weak var HomeButton: UIButton!

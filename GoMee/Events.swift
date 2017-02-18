@@ -42,6 +42,9 @@ class Events
         
         
         Events(title: "Concert", description: "Chainsmokers Concert", book: "Book Concert", mainImage: UIImage(named: "Concert")!),
+        
+        Events(title: "House Party", description: "Vancouver", book: "Book Concert", mainImage: UIImage(named:"LynnCanyon")!),
+    
 
             
         Events(title: "LightHouse Park", description: "Outdoors Activity", book: "Book Activity",  mainImage: UIImage(named: "Sky")!),

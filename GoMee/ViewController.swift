@@ -24,7 +24,6 @@ fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
 }
 
 // FIXME: comparison operators with optionals were removed from the Swift Standard Libary.
-
 fileprivate func > <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
     switch (lhs, rhs) {
     case let (l?, r?):
