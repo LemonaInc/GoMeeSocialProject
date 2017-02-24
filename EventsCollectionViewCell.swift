@@ -27,15 +27,25 @@ class EventsCollectionViewCell: UICollectionViewCell
     @IBOutlet weak var DescriptionLabel: UILabel!
     @IBOutlet weak var Button: UIButton!
     @IBOutlet weak var HomeButton: UIButton!
- 
     
+    // Create IBOutlets for loading teh images from the server 
+    
+    // HOPE
+    @IBOutlet var Image: UIImageView!
+
+   // @IBOutlet var Image: UIImageView!
+    
+ 
     
     fileprivate func updateUI()
     {
         TitleLabel?.text! = event.title
         DescriptionLabel?.text! = event.description
         BookLabel?.text! = event.book
-        mainImageView?.image! = event.mainImage
+       // mainImageView?.image! = event.mainImage
+        
+   
+        
     }
     
     override func layoutSubviews() {
@@ -48,13 +58,10 @@ class EventsCollectionViewCell: UICollectionViewCell
         // Clips to bounds makes the cell and image contained within cell clip the bounds of the height and width
         self.clipsToBounds = true
         
-        
-        
-
-
-        
-        
+    
     }
+    
+    
     
     
     
