@@ -31,7 +31,6 @@
 		EAE286111E5FAEA200A03D22 /* ImageViewLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE286101E5FAEA200A03D22 /* ImageViewLoader.swift */; };
 		EAE606FC1E4E8E3300179D9C /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE606FB1E4E8E3300179D9C /* EventsViewController.swift */; };
 		EAE606FF1E4E8E5100179D9C /* EventsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE606FE1E4E8E5100179D9C /* EventsCollectionViewCell.swift */; };
-		EAE607041E4E944900179D9C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE607031E4E944900179D9C /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,7 +83,6 @@
 		EAE286101E5FAEA200A03D22 /* ImageViewLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewLoader.swift; sourceTree = "<group>"; };
 		EAE606FB1E4E8E3300179D9C /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		EAE606FE1E4E8E5100179D9C /* EventsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventsCollectionViewCell.swift; path = ../EventsCollectionViewCell.swift; sourceTree = "<group>"; };
-		EAE607031E4E944900179D9C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,7 +184,6 @@
 			children = (
 				EADDE24F1E4A9CA000E5B227 /* Main.storyboard */,
 				EADDE2541E4A9CA000E5B227 /* LaunchScreen.storyboard */,
-				EAE607031E4E944900179D9C /* MainViewController.swift */,
 				EADDE24B1E4A9CA000E5B227 /* AppDelegate.swift */,
 				EADDE24D1E4A9CA000E5B227 /* ViewController.swift */,
 				EAE286071E5F9E6600A03D22 /* ImageLoading */,
@@ -386,7 +383,6 @@
 				EAE606FC1E4E8E3300179D9C /* EventsViewController.swift in Sources */,
 				EA01193E1E4ADFE50004C305 /* JSColor.swift in Sources */,
 				EA6CDABC1E60BA7E006A58ED /* ImageParser.swift in Sources */,
-				EAE607041E4E944900179D9C /* MainViewController.swift in Sources */,
 				EA0119401E4ADFE50004C305 /* JSLayer.swift in Sources */,
 				EAE606FF1E4E8E5100179D9C /* EventsCollectionViewCell.swift in Sources */,
 			);
