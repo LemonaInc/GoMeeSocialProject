@@ -76,7 +76,7 @@ class ImageParser: UIViewController, UICollectionViewDelegate, UICollectionViewD
     
     var images_cache = [String:UIImage]()
     var images = [String]()
-    let link = "http://www.kaleidosblog.com/tutorial/get_images.php"
+    let link = "http://www.jsdev.info/images_php"
     
     override func viewDidLoad() {
         super.viewDidLoad()
