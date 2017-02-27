@@ -10,7 +10,7 @@ import UIKit
 
 class ImageViewController: UIViewController {
     
-    
+    // This View Controller will be used later 
     @IBOutlet weak var imageView :UIImageView!
     @IBOutlet weak var imageView2 : UIImageView!
 

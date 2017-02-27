@@ -41,6 +41,7 @@ class ImageParser: UIViewController, UICollectionViewDelegate, UICollectionViewD
     
     // MARK: - IBOutlets
     
+   
     @IBOutlet weak var backgroundImageView: UIImageView!
     @IBOutlet weak var collectionView: UICollectionView!
     
@@ -52,6 +53,7 @@ class ImageParser: UIViewController, UICollectionViewDelegate, UICollectionViewD
     
     var accountKit: AKFAccountKit!
     
+    // Facebook account kit outlets
     @IBOutlet weak var accountID: UILabel!
     @IBOutlet weak var labeltype: UILabel!
     @IBOutlet weak var phoneornumber: UILabel!
@@ -76,6 +78,8 @@ class ImageParser: UIViewController, UICollectionViewDelegate, UICollectionViewD
     
     var images_cache = [String:UIImage]()
     var images = [String]()
+    
+    // This is the URL we parse the images from. The file is php file that contains an array of images to load into the view
     let link = "http://www.jsdev.info/images_php"
     
     override func viewDidLoad() {
@@ -153,6 +157,7 @@ class ImageParser: UIViewController, UICollectionViewDelegate, UICollectionViewD
 
    internal func numberOfSections(in collectionView: UICollectionView) -> Int
     {
+        // Number of sections
         return 1
     }
     
@@ -272,6 +277,8 @@ class ImageParser: UIViewController, UICollectionViewDelegate, UICollectionViewD
     
     internal func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
     {
+        
+        // Return in order to prevent a crash
         return self.images.count & self.events.count
 
     }
