@@ -56,7 +56,6 @@ class Events
         
         Events(title: "Hike", description: "Hike to the beach",book: "RVSP"),
         
-        
         Events(title: "Party", description: "A party to remember", book: "Attend Party"),
         
         Events(title: "Hike", description: "Hike to the beach",book: "RVSP"),
