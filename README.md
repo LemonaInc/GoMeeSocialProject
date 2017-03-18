@@ -6,10 +6,10 @@ Created by Jaxon and Wuttipat.
 
 # Frameworks and Library's used in GoMee
 
-In our project we used the facebook account kit framework and also included a Material Kit library.
-Please note all rights for the frameorks that were included in our project should be given to the developer and were not created by Jaxon, Wuttipat or anyone on the GoMee team. 
+In our project we used the Facebook Account Kit framework and also included a Material Kit library.
+Please note all rights for the frameorks that were included in our project should be given to the respective developers and were not created by Jaxon, Wuttipat or anyone on the GoMee team.
 
-If you are the creator of any work or code used in our project and have a concern or question you can reach us at software@lemonainc.com
+If you are the creator of any work or code used in GoMee and have a concern or question you can reach us at software@lemonainc.com
 
 The Material Kit Library we used in our project (MKMaterialKit):https://github.com/nghialv/MaterialKit
 Facebook Account Kit: https://developers.facebook.com/docs/accountkit
