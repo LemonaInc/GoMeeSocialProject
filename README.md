@@ -4,7 +4,7 @@ In our final prokect we wanted to create an application that can be extended in 
 Thank you for your time and hopefully you enjoy our final project.
 Created by Jaxon and Wuttipat.
 
-# Other FrameWorks
+# Frameworks and Library's used in GoMee
 
 In our project we used the facebook account kit framework and also included a Material Kit library.
 Please note all rights for the frameorks that were included in our project should be given to the developer and were not created by Jaxon, Wuttipat or anyone on the GoMee team. 
