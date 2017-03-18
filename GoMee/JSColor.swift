@@ -1,9 +1,9 @@
 //
 //  JSColor.swift
-//  JSMaterialKit
+//  MaterialKit
 //
-//  Created by Jaxon Stevens on 04/20/15
-//  Copyright (c) 2016 Jaxon Stevens. All rights reserved.
+//  Created by Le Van Nghia on 11/15/14.
+//  Copyright (c) 2014 Le Van Nghia. All rights reserved.
 //
 
 import UIKit

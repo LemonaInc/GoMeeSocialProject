@@ -27,8 +27,6 @@
 		EADDE24E1E4A9CA000E5B227 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADDE24D1E4A9CA000E5B227 /* ViewController.swift */; };
 		EADDE2611E4A9CA000E5B227 /* GoMeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADDE2601E4A9CA000E5B227 /* GoMeeTests.swift */; };
 		EADDE26C1E4A9CA000E5B227 /* GoMeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADDE26B1E4A9CA000E5B227 /* GoMeeUITests.swift */; };
-		EAE2860F1E5FAE9300A03D22 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE2860E1E5FAE9300A03D22 /* ImageViewController.swift */; };
-		EAE286111E5FAEA200A03D22 /* ImageViewLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE286101E5FAEA200A03D22 /* ImageViewLoader.swift */; };
 		EAE606FC1E4E8E3300179D9C /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE606FB1E4E8E3300179D9C /* EventsViewController.swift */; };
 		EAE606FF1E4E8E5100179D9C /* EventsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE606FE1E4E8E5100179D9C /* EventsCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -79,8 +77,6 @@
 		EADDE2671E4A9CA000E5B227 /* GoMeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoMeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADDE26B1E4A9CA000E5B227 /* GoMeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoMeeUITests.swift; sourceTree = "<group>"; };
 		EADDE26D1E4A9CA000E5B227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAE2860E1E5FAE9300A03D22 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
-		EAE286101E5FAEA200A03D22 /* ImageViewLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewLoader.swift; sourceTree = "<group>"; };
 		EAE606FB1E4E8E3300179D9C /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		EAE606FE1E4E8E5100179D9C /* EventsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventsCollectionViewCell.swift; path = ../EventsCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -218,7 +214,6 @@
 		EAE286071E5F9E6600A03D22 /* ImageLoading */ = {
 			isa = PBXGroup;
 			children = (
-				EAE286101E5FAEA200A03D22 /* ImageViewLoader.swift */,
 			);
 			name = ImageLoading;
 			sourceTree = "<group>";
@@ -226,7 +221,6 @@
 		EAE606FD1E4E8E3A00179D9C /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				EAE2860E1E5FAE9300A03D22 /* ImageViewController.swift */,
 				EAE606FE1E4E8E5100179D9C /* EventsCollectionViewCell.swift */,
 				EAE606FB1E4E8E3300179D9C /* EventsViewController.swift */,
 			);
@@ -375,11 +369,9 @@
 			files = (
 				EA0119431E4AEC670004C305 /* LoginViewController.swift in Sources */,
 				EADDE24E1E4A9CA000E5B227 /* ViewController.swift in Sources */,
-				EAE2860F1E5FAE9300A03D22 /* ImageViewController.swift in Sources */,
 				EADDE24C1E4A9CA000E5B227 /* AppDelegate.swift in Sources */,
 				EA6CDABE1E60BA84006A58ED /* CellClass.swift in Sources */,
 				EA01193F1E4ADFE50004C305 /* JSButton.swift in Sources */,
-				EAE286111E5FAEA200A03D22 /* ImageViewLoader.swift in Sources */,
 				EAE606FC1E4E8E3300179D9C /* EventsViewController.swift in Sources */,
 				EA01193E1E4ADFE50004C305 /* JSColor.swift in Sources */,
 				EA6CDABC1E60BA7E006A58ED /* ImageParser.swift in Sources */,
